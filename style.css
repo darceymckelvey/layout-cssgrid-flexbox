@@ -34,3 +34,14 @@ body {
          grid-template-columns: auto auto auto auto;
     }
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    background-color: lightblue;
+    padding: 25px;
+}
